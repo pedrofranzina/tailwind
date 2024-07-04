@@ -4,14 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
-    <link rel="stylesheet" href="build/style.css">
+    <link href="build/style.css" rel="stylesheet">
 </head>
 
-<body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+<body class="bg-slate-300 h-screen flex flex-col justify-between">
+    <nav class="bg-slate-600 h-20  flex justify-between items-center px-10  ">
+        <div class="text-white">
+            LOGO
+        </div>
+        <ul class="flex gap-6 text-lg text-white font-bold">
+            <li>nav 1</li>
+            <li>nav 2</li>
+            <li>nav 3</li>
+            <li>nav 4</li>
+        </ul>
+    </nav>
+    <main class="flex-1">
+        <section id="hero">
+            <div
+                class="bg-blue-400 shadow-lg shadow-red-600 border-b-4 hover:bg-yellow-200 border-white  rounded-tr-full mb-10  container mx-auto p-6 mt-10 cursor-pointer hover:text-purple-600 hover:border-green-500 hover:rounded-tr-none hover:rounded-bl-full">
+
+                <h1 class="text-3xl">Banner</h1>
+            </div>
+        </section>
+        <section>
+            <div class="container mx-auto p-6 bg-white">
+                <div class="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                    <div class="bg-blue-200">card 1</div>
+                    <div class="bg-blue-200">card 1</div>
+                    <div class="bg-blue-200">card 1</div>
+                    <div class="bg-blue-200">card 1</div>
+                    <div class="bg-blue-200">card 1</div>
+                </div>
+        </section>
+
+
+
+    </main>
+    <footer class="bg-black h-20  flex justify-between items-center px-10 ">
+        <div class="text-white">
+            LOGO
+        </div>
+        <ul class="flex gap-6 text-lg text-white font-bold">
+            <li>nav 1</li>
+            <li>nav 2</li>
+            <li>nav 3</li>
+            <li>nav 4</li>
+        </ul>
+    </footer>
 </body>
 
 </html>
